@@ -22,6 +22,9 @@
   box-sizing: border-box;
 }
 
+#background-container{
+  background-image: url(/img/background.jpg);
+}
 /* se utiliza para especificar el comportamiento de desplazamiento
 suave (smooth scrolling) en una página web */
 html {
@@ -95,12 +98,13 @@ ocuparán igualmente el espacio disponible en el contenedor.
 }
 
 .column-1 h1{
-  overflow: hidden;
+
   border-right: 0.08em solid var(--main-color);
   padding-right: 0.2rem;
   white-space: nowrap;
   margin: auto;
-  animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite ;
+  animation:  blink 0.75s step-end infinite ;
+  
 }
 
 .column-2 {
